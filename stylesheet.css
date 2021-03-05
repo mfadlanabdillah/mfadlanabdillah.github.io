@@ -144,18 +144,26 @@ input, textarea {
   color:#7C7D83;
 }
 
-.contact-submit{
-  width: 500px;
-  background-color:#f7ea8a;
-  color:#4f4f4f;
-  font-size: 22px;
+.btn {
+  padding: 12px 24px;
+  color: #4f4f4f;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+  text-align: center;
 }
 
-.contact-submit:hover{
-  width: 500px;
-  background-color:#ffe202;
-  color:#4f4f4f;
-  font-size: 22px;
+.contact-submit{
+  padding: 15px 40px;
+  background-color: #f7ea8a;
+  cursor: pointer;
+  box-shadow: 0 7px #887800;
+}
+
+.contact-submit:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
 }
 
 .contact-form p{
